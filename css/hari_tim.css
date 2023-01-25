@@ -1,0 +1,140 @@
+.titre-tim{
+    text-align: center;
+    padding: 2%;
+    color: #94b8b8;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px white;
+}
+/*.title-head::after{
+    content: '';
+    height: 2px;
+    width: 0;/* Ligne decoration*/
+    /**background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.title-head:hover::after{
+    width: 100%;
+
+}*/
+.tim-ist{
+    width: 80%;
+    background-image: url(../Images/fond_pages.png);
+    padding: 2%;
+    margin: auto;
+}
+.tete-tim{
+    height: auto;
+    width: 100%;
+    background-color: #3570bd;
+    padding-top: 2%;
+    padding-right: 4%;
+}
+.tete-tim .title-head{
+    position:absolute;
+    color: white;
+    font-size: 22px;
+    margin-top: -6%;
+    margin-left: 10rem;
+    /*margin-top: 3%;
+    margin-right: 10%;*/
+    text-shadow: 3px 3px 3px black;
+
+}
+.img-tete-tim{
+    width: 100%;
+    margin: auto;
+    display: none;
+}
+span.ist{
+    color: red;
+    font-size: 26px;
+}
+.head-tim{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 2px solid #47476b;
+    margin-bottom: 1%;
+}
+span.head-title{
+    color: #00cc66;
+    font-size: 20px;
+}
+span.ment-parc{
+    color: #47476b;
+}
+span.title-dts{
+    color: red;
+    font-size: 20px;
+}
+span.float{
+    margin-left: 4%;
+}
+span.tim-rose{
+    color: #ff0080;
+    font-weight: bold;
+    font-size: 18px;
+}
+span.suite-etude{
+    color: #00b359;
+    font-size: 18px;
+    font-weight: bold;
+}
+.p-norm{
+    font-weight: normal;
+    margin-bottom: 2%;
+}
+#logo-ist{
+    width: 100px;
+    margin-left: 4%;
+}
+.corps-tim .titre-tim{
+    text-transform: uppercase;
+    color: #00cc66;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 4%;
+    padding: 1.5%;
+
+}
+.list-tim > li{
+    margin-left: 10%;
+    color: #b30086;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0.5%;
+}
+.titre-tim > p{
+    text-align: justify;
+}
+.titre-tim-1{
+    float: left;
+    margin-left: 6%;
+    color: #52527a;
+    font-size: 20px;
+}
+.etude-tim > li{
+    margin-left: 12%;
+    font-size: 16px;
+    padding: 0.6%;
+}
+@media (max-width:1113px){
+    .tete-tim{
+        display: none;
+    
+    }
+    .img-tete-tim{
+        display: block;
+    }
+
+}

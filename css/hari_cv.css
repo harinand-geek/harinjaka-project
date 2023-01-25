@@ -1,0 +1,266 @@
+.hari{
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.hari-sous{
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+}
+.cv{
+    width: 65%;
+    /*min-height: 100vh;*/
+    margin: auto;
+    margin-top: 5%;
+    border: 2px solid #06315c;
+    border-radius: 1%;
+    padding: 2%;
+    background: url(../Images/fond_pages.png);
+}
+.cv .photo{
+    float: right;
+    width: 15%;
+    border: 1px solid black;
+}
+.cv .photo img{
+    width: 100%;
+}
+.sec-left{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+.profil{
+    padding: 2%;
+}
+.para-bottom{
+    border-bottom: 1px solid #1e1e1e;
+}
+/* ******************************************************************************************************************************************
+                                                                 TABLEAU
+********************************************************************************************************************************************/
+.tableau-style{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    cursor: pointer;
+    margin-left: 5%;
+    border: 2px solid #06315c;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+thead tr{
+    background-color:#06315c;
+    color: #ffffff;
+    text-align: left;
+}
+
+th, td{
+    padding: 15px 20px;
+}
+tbody tr, td, th{
+    border: 1px solid #dddddd;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+                                                           AUTRES FORMATION
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.table_2 .table_3{
+    border: none;
+    line-height: 1px;
+}
+.table_2{
+    margin-bottom: 2%;
+}
+.table_4{
+    border: none;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+                                                            AUTRES
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+.comp ul{
+    margin-top: 3%;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+span{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.cv-pro{
+    height: 100px;
+    max-width: 660px;
+    width: 100%;
+    margin: auto;
+}
+.cv-pro button{
+    height: 45px;
+    width: 155px;
+    color: #ffffff;
+    background: #0f4286;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 12px 15rem;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+}
+.cv-pro button:hover{
+    background: transparent;
+    color: #0f4286;
+    border: 2px solid #0f4286;
+    font-weight: bold;
+}
+@media (max-width:550px){
+    .cv-pro button{
+        width: 60%;
+        margin: 12px 8rem;
+    }
+}
+@media (max-width:400px){
+    .cv-pro button{
+        width: 80%;
+        margin: 12px 2rem;
+    }
+}
+/*-------------------------------------------------------------------------------------------------------------
+                            DOWNLOAD CV
+-----------------------------------------------------------------------------------------------------------*/
+.down-cv{
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+}
+.down-cv .sec-down{
+    width: 20%;
+    display: inline-block;
+    padding: 5%;
+    margin-left: 10%;
+    
+}
+.down-cv .sec-down > a button{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+   
+
+}
+
+.down-cv .sec-down button{
+    width: 8rem;
+    height: 2.5rem;
+    background: #0f479b;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 0.8rem;
+}
+.down-cv .sec-down button:hover{
+    background: white;
+    color: #0f479b;
+    border: 2px solid #0f479b;
+}
+.down-cv h1{
+    color: #1e1e1e;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 868px){
+    .cv{
+        width: 80%;
+    }
+    *{
+        font-size:14px;
+    }
+    .down-cv .sec-down a button{
+        font-size: 12px;
+    }
+    .sec-left, span{
+        font-size: 14px;
+    }
+    .hari{
+        font-size: 25px;
+    
+    }
+    .hari-sous{
+        font-size: 16px;
+    }
+    th, td{
+        padding: 12px 16px;
+    }
+    thead tr{
+        font-size: 12px;
+    }
+    tbody tr, td, th{
+        line-height: 1.5px;
+    }
+}
+.sec-resp{
+    display: none;
+    padding: 2%;
+}
+@media (max-width:780px){
+    .down-cv .sec-down button{
+        width: 6rem;
+        height: 2rem;
+        border-radius: 0.6rem;
+    }
+    .down-cv .sec-down a button{
+        font-size: 10px;
+    }
+}
+@media (max-width:680px){
+    .cv{
+        width: 90%;
+    }
+    .down-cv .sec-down button{
+        width: 5rem;
+        height: 1.5rem;
+        border-radius: 0.6rem;
+    }
+    .down-cv .sec-down a button{
+        font-size: 8px;
+    }
+}
+@media (max-width:576px){
+    .down-cv .sec-down{
+        display: block;
+        margin: auto;
+   }
+   .down-cv .sec-down button{
+       border-radius: 0.4rem;
+   }
+   .down-cv .sec-down a button{
+       font-size: 8px;
+   }
+   .down-cv h1{
+       font-size: 16px;
+   }
+}
+@media (max-width:520px){
+    .down-cv .sec-down button{
+        border-radius: 0.2rem;
+    }
+    .sec-resp{
+        display: block;
+    }
+    .tableau-style{
+        display: none;
+    }
+    .table_2{
+        display: none;
+    }
+}

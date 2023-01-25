@@ -1,0 +1,13 @@
+
+.video{
+    width: 60%;
+    margin: auto;
+}
+.video video{
+    width: 100%;
+}
+@media (max-width: 868px) {
+    .video{
+        width: 80%;
+    }
+}

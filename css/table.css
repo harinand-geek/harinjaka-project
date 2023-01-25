@@ -1,0 +1,55 @@
+            .tab_grille {
+                width: 60%;
+                margin: auto;
+            }
+            
+            .tableau-grille {
+                border-collapse: collapse;
+                min-width: 400px;
+                width: 80%;
+                box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+                cursor: pointer;
+                margin: auto;
+                border: 2px solid #06315c;
+            }
+            
+            tr {
+                color: #ffffff;
+                text-align: center;
+            }
+            
+            td {
+                transition: .5s;
+                height: 6rem;
+                color: white;
+                width: 25%;
+            }
+            
+            th,
+            td {
+                padding: 15px 20px;
+            }
+            
+            tr,
+            td,
+            th {
+                border: 2px solid #06315c;
+            }
+            
+            td:hover {
+                background-color: rgba(11, 79, 167, 0.787);
+            }
+            
+            .tab_grille h3 {
+                text-align: center;
+                color: rgba(12, 48, 105, 0.815);
+            }
+            
+            @media (max-width: 560px) {
+                td {
+                    padding: 0px;
+                }
+                .tableau-grille {
+                    margin-right: 8%;
+                }
+            }

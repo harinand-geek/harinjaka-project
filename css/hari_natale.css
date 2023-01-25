@@ -1,0 +1,44 @@
+.page-all .mor_1{
+    width: 80%;
+    padding-bottom: 4%;
+    margin: auto;
+}
+
+.page-all .mor_1 img{
+    width: 100%;
+}
+.sous-titre{
+    text-align: center;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mor-col{
+    flex-basis: 31%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.p_ville{
+    text-align: center;
+}
+.mor-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.mor-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+@media (max-width:700px){
+    .row{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+}
+

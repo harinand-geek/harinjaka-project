@@ -1,0 +1,333 @@
+body{
+    background: lightblue;
+}
+.section-cv{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container-cv{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #ffffff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container-cv .sec-gauche{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #efefef;
+    text-transform: none;
+}
+.contactInfo{
+    padding-top: 40px;
+}
+.titre{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+.contactInfo ul li .icon-cv{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo ul li span a{
+    text-decoration: none;
+    color: #efefef;
+    font-weight: 300;
+}
+.contactInfo ul li span{
+    color: #efefef;
+    font-weight: 300;
+}
+.contactInfo.education li{
+    margin-bottom: 15px;
+}
+.contactInfo.education h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+.contactInfo.education .child-2{
+    color: #cec7c7;
+    font-weight: 500;
+}
+.contactInfo.education h4{
+    color: #efefef;
+    font-weight: 300;
+}
+.contactInfo.langues .pourcent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.contactInfo.langues .pourcent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+
+.container-cv .sec-droite{
+    position: relative;
+    background: #ffffff;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.titre-2{
+    color: #083147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #333;
+}
+p .para{
+    margin-left: 3rem;
+}
+p .text-in{
+    font-weight: bold;
+    color: #081921;
+}
+p a{
+    text-decoration: none;
+    color: #1068b1;
+}
+p a:hover{
+    text-decoration: underline;
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year_company{
+    min-width: 150px;
+}
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+
+}
+.about .box .text h4{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+.connaissance .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.connaissance .box h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+.connaissance .box .pourcent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.connaissance .box .pourcent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.activite ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.activite ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.activite ul li .fa{
+    color: #03a9f4;
+    font-size: 18px;
+    width: 20px;
+}
+.down-cv{
+    height: 100px;
+    max-width: 660px;
+    width: 100%;
+    margin: 55px 0;
+}
+.down-cv .button {
+    padding: 10px 6rem 10px 6rem;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 8rem;
+    color: #164a8dea;
+    font-weight: 300;
+    border: 2px solid #164a8dea;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.4s ease-in-out;
+}
+.down-cv .button:hover{
+    background: #164a8dea;
+    color: white;
+}
+@media (max-width:1055px){
+    .contactInfo ul li .icon-cv{
+        width: 20px;
+        font-size: 16px;
+    }
+}
+@media (max-width:1021px){
+    .contactInfo ul li .icon-cv{
+        width: 20px;
+    }
+    .contactInfo ul li span a{
+        text-decoration: none;
+        color: #efefef;
+        font-size: 14px;
+    }
+}
+@media (max-width:1000px){
+    .container-cv{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .activite ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:720px){
+    .down-cv{
+        width: 80%;
+    }
+    .down-cv .button {
+        margin: 0 6rem;
+    }
+}
+@media (max-width:630px){
+    .down-cv .button {
+        margin: 0 4rem;
+        padding: 10px 4rem 10px 4rem;
+    }
+}
+@media (max-width:600px){
+    .about .box{
+        flex-direction: column;
+    }
+    .about .box .year_company{
+        margin-bottom: 5px;
+    }
+    .activite ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .connaissance .box{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+@media (max-width:470px){
+    .down-cv{
+        width: 100%;
+    }
+    .down-cv .button {
+        margin: 0 2rem;
+        padding: 10px 2rem 10px 2rem;
+    }
+}
+@media (max-width:342px){
+    .contactInfo ul li .icon-cv{
+        width: 25px;
+        font-size: 14px;
+    }
+    .contactInfo ul li span a{
+        font-weight: 200;
+        font-size: 14px;
+    }
+    .profileText .imgBx{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (max-width:250px){
+    .down-cv .button {
+        margin: 0 2rem;
+        font-size: 12px;
+        font-weight: normal;
+        padding: 5px 5px 5px 5px;
+    }
+}
